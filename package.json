@@ -1,8 +1,9 @@
 {
-  "name": "create-policynexus-scraper-ts",
+  "name": "@policynexus/create-policynexus-scraper-ts",
   "version": "0.0.1",
   "description": "Init-Repository for PolicyNexus-Scraper",
-  "main": "src/main.js",
+  "main": "src/main.ts",
+  "bin": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/policynexus/create-policynexus-scraper-ts#readme",
   "dependencies": {
     "@policynexus/repository-types": "^0.1.1",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
   }
 }
